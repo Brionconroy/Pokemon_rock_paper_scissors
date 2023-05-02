@@ -1,0 +1,58 @@
+/* --- Global style */
+
+body {
+    background-color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #445361;
+    text-align: center;
+}
+
+/* --- Heading */
+
+.heading {
+    text-align: center;
+}
+
+.logo {
+    height: 200px;
+    width: 800px;
+    padding-right: 5px;
+}
+
+/* --- Game layout */
+
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.4rem;
+}
+
+.scores {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* --- Buttons */
+
+.blastoise:active,
+.blastoise:hover {
+    background-color: rgb(45, 45, 198);
+    color: white;
+}
+
+.charizard:active,
+.charizard:hover {
+    background-color: rgb(190, 11, 11);
+    color: white;
+}
+
+.venusaur:active,
+.venusaur:hover {
+    background-color: rgb(17, 132, 17);
+    color: white;
+}
+
+.battle-arean {
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
