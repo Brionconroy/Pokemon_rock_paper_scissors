@@ -34,20 +34,20 @@ body {
 
 /* --- Buttons */
 
-#blastoise:active,
-#blastoise:hover {
+#Blastoise:active,
+#Blastoise:hover {
     background-color: rgb(45, 45, 198);
     color: white;
 }
 
-#charizard:active,
-#charizard:hover {
+#Charizard:active,
+#Charizard:hover {
     background-color: rgb(190, 11, 11);
     color: white;
 }
 
-#venusaur:active,
-#venusaur:hover {
+#Venusaur:active,
+#Venusaur:hover {
     background-color: rgb(17, 132, 17);
     color: white;
 }
