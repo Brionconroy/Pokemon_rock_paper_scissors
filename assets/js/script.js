@@ -5,8 +5,10 @@ const possibleChoices = document.querySelectorAll("button");
 let userChoice;
 let computerChoice;
 
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (event) => {
-    userChoice = event.target.id;
+// using event listener to pick the users choice and display it in the score area //
+
+possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
+    userChoice = e.target.id;
     userChoicePick.innerHTML = userChoice;
     randomComputerChoice();
 }));
