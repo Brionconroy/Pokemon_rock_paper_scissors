@@ -16,7 +16,6 @@ body {
 .logo {
     height: 200px;
     width: 800px;
-    padding-right: 5px;
 }
 
 /* --- Game layout */
@@ -59,4 +58,17 @@ body {
 
 h2 {
     margin: 3px;
+}
+
+#Venusaur,
+#Charizard,
+#Blastoise {
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }

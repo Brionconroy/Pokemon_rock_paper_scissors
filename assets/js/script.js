@@ -13,11 +13,14 @@ trainersPossibleChoice.forEach(button => button.addEventListener("click", (event
     userChoicePick.innerHTML = userChoice;
     randomComputerChoice();
     battleResult();
+    userScore();
+    teamRocketScore();
 }));
 
 // random number generated for computer from 0-2 //
 
 function randomComputerChoice() {
+
     const randomNumber = Math.floor(Math.random() * 3) + 1;
     if (randomNumber === 1) {
         computerChoice = "Venusaur";
@@ -34,6 +37,7 @@ function randomComputerChoice() {
 // displays result in result section //
 
 function battleResult() {
+
     if (userChoice === computerChoice) {
         result = "Your Pokemon were evenly matched";
     }
