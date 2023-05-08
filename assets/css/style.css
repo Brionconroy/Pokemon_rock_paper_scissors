@@ -20,6 +20,15 @@ body {
 
 /* --- Game layout */
 
+#rules {
+    text-align: center;
+    border: 1px solid black;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
 .score-area {
     margin: 5px auto;
     width: 60%;
@@ -28,7 +37,7 @@ body {
 
 .scores {
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 
 /* --- Buttons */
