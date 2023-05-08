@@ -1,39 +1,44 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pokemon Battle
 
-Welcome,
+Pokemon battle game is a twist on a Rock, paper, Scissors. The Pokemon battle game has come from the TV series Pokemon where differant types of Pokemon have leaverage over there other. fire beats grass, grass beat water and so on. i thought this might be a good idea for a themed rock, paper, scissors game. The pokemon Battle game lets you play agianst the computer and pick from three differnt types of pokemons. 
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Experience (UX)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+As a new visitor to the site, I want to be able to quickly and simply understand what the site does and the rules of the game. As a returning user to the site i want to quickly navagate to the game without interutions.
 
-## Codeanywhere Reminders
+## Design (UXD)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+The User Experience Design was constructed using the five planes.
 
-`python3 -m http.server`
+Stratagy: Is this content relvent to the user and is it culturally appropriate?
+Scope: Are we accomplishing our goals of broadcasting the product?
+Structure: How many pages should we have in our website and why?
+Skeleton: Does the structure of the wireframe meet the costumers/users needs? Is the web page responsive?
+Surface: Does the site look good visully? Does it have enough images and colours?
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Logo
 
-`http_server`
+The image logo gives the user a clear indictation of the theme of the site.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Rules
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The rules let the user know how the game will play. 
+The rules also let the user know how to the win the game.
+Witch pokemon beat witch Pokemon.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User options
 
-To log into the Heroku toolbelt CLI:
+This section has the three possible options the user can make.
+The three buttons will respond to you when you hover over them and click them.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## computer options
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The computer picks a random number between 0-2 each number corisponds to one of the pokemon.
+The pokemon is displayed and the battle can begin.
 
----
+## Result section
 
-Happy coding!
+This area shows the result of the battle, wether it was a win draw or a lose.
+
