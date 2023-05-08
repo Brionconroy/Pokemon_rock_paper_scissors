@@ -48,6 +48,33 @@ body {
 
 /* --- Buttons */
 
+#Blastoise {
+    background-image: url(https://archives.bulbagarden.net/media/upload/archive/0/0a/20090912061003%210009Blastoise.png);
+    place-content: center;
+    background-position: center ;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#Venusaur {
+    background-image: url(https://archives.bulbagarden.net/media/upload/archive/6/6b/20130729080248%210003Venusaur.png);
+    place-content: center;
+    background-position: center ;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+#Charizard {
+    background-image: url(https://archives.bulbagarden.net/media/upload/archive/3/38/20130512093836%210006Charizard.png);
+    place-content: center;
+    background-position: center ;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
 #Blastoise:active,
 #Blastoise:hover {
     background-color: rgb(45, 45, 198);
