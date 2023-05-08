@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Google fonts-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap" rel="stylesheet">
@@ -20,9 +21,42 @@
 
 <body>
 <!--pokemon Logo-->
+
     <h1 class="heading">
         <img class="logo" src="assets/images/pokémon_logo.svg.png" alt="logo">
     </h1>
+
+<!--Choose your Pokemon-->
+
+    <div class="choose-pokemon">
+        <button id="Venusaur">
+            <img src="assets/images/venusaur.png" alt="Venusaur Pokemon">
+            Venusaur
+        </button>
+        <button id="Blastoise">
+            <img src="assets/images/blastoise.png" alt="Blastoise Pokemon">
+            Blastoise
+        </button>
+        <button id="Charizard">
+            <img src="assets/images/charizard.png" alt="Charizard Pokemon">
+            Charizard
+        </button>
+    </div>
+
+<!--This area tell you the choice of the the computer and the user-->
+
+    <div class="battle-arean">
+        <h2>User choice : <span id="user-pick"></span></h2>
+        <h2>Computer choice : <span id="computer-pick"></span></h2>
+        <h2>Result : <span id="result"></span></h2>
+    </div>
+
+    <!--This area tell you how many times the user and the computer have won-->
+
+    <div class="score-area">
+        <p class="scores">Users Score :<span id="user-score">0</span></p>
+        <p class="scores">Team Rockets Score :<span id="team-rocket-score">0</span></p>
+    </div>
 
     <div id="rules">
         <h2>Rules</h2>
@@ -41,35 +75,6 @@
             Water beats Fire 
             Fire beats Grass
         </p>
-    </div>
-
-<!--Choose your Pokemon-->
-    <div class="choose-pokemon">
-        <button id="Venusaur">
-            <img src="assets/images/venusaur.png" alt="Venusaur Pokemon">
-            Venusaur
-        </button>
-        <button id="Blastoise">
-            <img src="assets/images/blastoise.png" alt="Blastoise Pokemon">
-            Blastoise
-        </button>
-        <button id="Charizard">
-            <img src="assets/images/charizard.png" alt="Charizard Pokemon">
-            Charizard
-        </button>
-    </div>
-
-<!--This area tell you the choice of the the computer and the user-->
-    <div class="battle-arean">
-        <h2>User choice : <span id="user-pick"></span></h2>
-        <h2>Computer choice : <span id="computer-pick"></span></h2>
-        <h2>result : <span id="result"></span></h2>
-    </div>
-
-    <!--This area tell you how many times the user and the computer have won-->
-    <div class="score-area">
-        <p class="scores">Users Score :<span id="user-score">0</span></p>
-        <p class="scores">Team Rockets Score :<span id="team-rocket-score">0</span></p>
     </div>
 
 

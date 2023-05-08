@@ -39,7 +39,7 @@ function randomComputerChoice() {
 function battleResult() {
 
     if (userChoice === computerChoice) {
-        result = "Your Pokemon were evenly matched";
+        result = "Draw";
     }
     if (userChoice === "Venusaur" && computerChoice === "Blastoise") {
         result = "Winner";
