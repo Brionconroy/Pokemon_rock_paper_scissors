@@ -29,6 +29,7 @@ body {
     border: 1px solid black;
     max-width: 50%;
     margin: 0 auto;
+    margin-bottom: 10px;
     padding: 5px;
     font-size: 1.4rem;
 }
@@ -136,6 +137,7 @@ img {
 
     #rules {
     max-width: 70%;
+    margin: 5px;
     }
 
     .choose-pokemon {
