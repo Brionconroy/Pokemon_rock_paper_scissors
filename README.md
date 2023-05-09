@@ -20,15 +20,21 @@ Surface: Does the site look good visully? Does it have enough images and colours
 
 ## Logo
 
+![](assets/images/readme.md/logo.png)
+
 The image logo gives the user a clear indictation of the theme of the site.
 
 ## Rules
+
+![](assets/images/readme.md/rules.png)
 
 The rules let the user know how the game will play. 
 The rules also let the user know how to the win the game.
 Witch pokemon beat witch Pokemon.
 
 ## User options
+
+![](assets/images/readme.md/pokemon.choice.png)
 
 This section has the three possible options the user can make.
 The three buttons will respond to you when you hover over them and click them.
@@ -40,9 +46,13 @@ The pokemon is displayed and the battle can begin.
 
 ## Result section
 
+![](assets/images/readme.md/result.png)
+
 This area shows the result of the battle, wether it was a win draw or a lose.
 
 ## Score board
+
+![](assets/images/readme.md/score.png)
 
 This section tells you how many times you've one or lost agianst the computer.
 
@@ -65,17 +75,25 @@ I have made sure that all my headings and text are easy to read and understand.
 
 ### HTML
 
+![](assets/images/readme.md/html.validater.png)
+
 No errors were found when passing the website through the official W3C Validator.
 
 ### CSS
+
+![](assets/images/readme.md/css.valadater.png)
 
 No errors were found when passing the website through the official Jigsaw Validator.
 
 ### JavaScript
 
+![](assets/images/readme.md/logo.png)
+
 No errors were found when passing my Javascript code through the JSHint validator.
 
 ### Lighthouse
+
+![](assets/images/readme.md/lighthouse.png)
 
 I used Lighthouse to make sure that my page accessible and easily readable.
 
