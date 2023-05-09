@@ -10,6 +10,8 @@ As a new visitor to the site, I want to be able to quickly and simply understand
 
 The User Experience Design was constructed using the five planes.
 
+![](assets/images/readme.md/wireframe.png)
+
 Stratagy: Is this content relvent to the user and is it culturally appropriate?
 Scope: Are we accomplishing our goals of broadcasting the product?
 Structure: How many pages should we have in our website and why?
