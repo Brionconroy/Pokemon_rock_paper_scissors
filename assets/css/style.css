@@ -47,7 +47,7 @@ body {
 /* --- Buttons */
 
 #Blastoise {
-    background-image: url("assets/images/blastoise.png");
+    background-image: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png");
     place-content: center;
     background-position: center ;
     background-size: cover;
@@ -56,7 +56,7 @@ body {
 }
 
 #Venusaur {
-    background-image: url(https://archives.bulbagarden.net/media/upload/archive/6/6b/20130729080248%210003Venusaur.png);
+    background-image: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png");
     place-content: center;
     background-position: center ;
     background-size: cover;
@@ -65,7 +65,7 @@ body {
 }
 
 #Charizard {
-    background-image: url(https://archives.bulbagarden.net/media/upload/archive/3/38/20130512093836%210006Charizard.png);
+    background-image: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png");
     place-content: center;
     background-position: center ;
     background-size: cover;
