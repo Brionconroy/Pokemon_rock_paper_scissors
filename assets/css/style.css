@@ -4,8 +4,6 @@
     border: 0;
 }
 
-/* --- Global style */
-
 body {
     background-color: white;
     font-family: 'Barlow Condensed', sans-serif;
@@ -49,7 +47,7 @@ body {
 /* --- Buttons */
 
 #Blastoise {
-    background-image: url(https://archives.bulbagarden.net/media/upload/archive/0/0a/20090912061003%210009Blastoise.png);
+    background-image: url("assets/images/blastoise.png");
     place-content: center;
     background-position: center ;
     background-size: cover;

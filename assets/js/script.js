@@ -13,8 +13,6 @@ trainersPossibleChoice.forEach(button => button.addEventListener("click", (event
     userChoicePick.innerHTML = userChoice;
     randomComputerChoice();
     battleResult();
-    teamRocketScore();
-    userScore();
 }));
 
 // random number generated for computer from 0-2 //
@@ -60,8 +58,16 @@ function battleResult() {
      else if (userChoice === "Charizard" && computerChoice === "Blastoise") {
         result = "Loser";
      }
+
+    if (result === "Winner") {
+      userScore()
+    } else {
+      teamRocketScore()
+    }
+
     displayBattleResult.innerHTML = result;
 }
+
 // calaculating the score for the user //
 
 function userScore() {
