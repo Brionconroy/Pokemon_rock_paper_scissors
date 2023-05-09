@@ -1,5 +1,3 @@
-/*jshint esversion: 6 */
-
 var userChoicePick = document.getElementById("user-pick");
 var computerChoicePick = document.getElementById("computer-pick");
 var displayBattleResult = document.getElementById("result");
@@ -15,6 +13,8 @@ trainersPossibleChoice.forEach(button => button.addEventListener("click", (event
     userChoicePick.innerHTML = userChoice;
     randomComputerChoice();
     battleResult();
+    teamRocketScore();
+    userScore();
 }));
 
 // random number generated for computer from 0-2 //
@@ -61,4 +61,19 @@ function battleResult() {
         result = "Loser";
      }
     displayBattleResult.innerHTML = result;
+}
+// calaculating the score for the user //
+
+function userScore() {
+
+   let oldScore = parseInt(document.getElementById("user-score").innerText);
+   document.getElementById("user-score").innerText = ++oldScore;
+}
+
+// calaculating the score for the user team rocket//
+
+function teamRocketScore() {
+
+   let oldScore = parseInt(document.getElementById("team-rocket-score").innerText);
+   document.getElementById("team-rocket-score").innerText = ++oldScore;
 }
