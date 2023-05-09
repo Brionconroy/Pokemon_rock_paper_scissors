@@ -89,7 +89,7 @@ No errors were found when passing the website through the official Jigsaw Valida
 
 ### JavaScript
 
-![](assets/images/readme.md/logo.png)
+![](assets/images/readme.md/Js.validater.png)
 
 No errors were found when passing my Javascript code through the JSHint validator.
 

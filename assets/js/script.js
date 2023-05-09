@@ -60,10 +60,10 @@ function battleResult() {
      }
 
     if (result === "Winner") {
-      userScore()
-    } else {
-      teamRocketScore()
-    }
+      userScore();
+    } else if (result === "Loser") {
+      teamRocketScore();
+    } 
 
     displayBattleResult.innerHTML = result;
 }
