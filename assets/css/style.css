@@ -47,6 +47,7 @@ body {
 
 /* --- Buttons */
 
+
 #Blastoise {
     background-image: url("https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png");
     place-content: center;
@@ -105,8 +106,7 @@ h2 {
 #Charizard,
 #Blastoise {
     background-color: transparent;
-    height: 300px;
-    width: 300px;
+    font-size:0px;
 }
 
 img {

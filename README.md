@@ -114,7 +114,8 @@ Thanks to the tutors at Coding instatute and to my mentor Anthony for guiding me
 
 ## Content
 
-My correct answers where taken from love maths project.
-My font was taken from [Google Fonts](https://fonts.google.com/)
-My images where taken from [bulbagarden](https://bulbapedia.bulbagarden.net/wiki/File:0009Blastoise.png)
-Helping me come to turms with JavaScript [Youtube](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
++ My correct answers where taken from love maths project.
++ My font was taken from [Google Fonts](https://fonts.google.com/)
++ My images where taken from [bulbagarden](https://pokemondb.net/pokedex/blastoise)
++ Helping me come to turms with JavaScript [Youtube](https://www.youtube.com/watch?v=RwFeg0cEZvQ)
++ help in hiding text in css [Quora](https://www.quora.com/How-do-you-hide-text-in-CSS)
