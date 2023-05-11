@@ -108,6 +108,8 @@ Click on pages in the bar on the left hand side.
 Click on Branches makes sure it is set to main, and click save.
 Refresh the page and you will see a URL link to your page.
 
+https://brionconroy.github.io/Pokemon_rock_paper_scissors/
+
 ## Credits
 
 Thanks to the tutors at Coding Institute and to my mentor Anthony for guiding me through my first project. I would also like to thank Katie Duggan for proofreading the content.
