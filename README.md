@@ -1,6 +1,8 @@
 # Pokemon Battle
 
-Pokemon battle game is a twist on a Rock, Paper, Scissors. The Pokemon battle game has come from the TV series Pokemon where different types of Pokemon have leverage over each other. Fire beats grass, grass beats water, and so on. I thought this might be a good idea for a themed rock, paper, scissors game. The pokemon Battle game lets you play agianst the computer and pick from three different types of pokemons. 
+Pokemon battle game is a twist on a Rock, Paper, Scissors. The Pokemon battle game has come from the TV series Pokemon where different types of Pokemon have leverage over each other. Fire beats grass, grass beats water, and so on. I thought this might be a good idea for a themed rock, paper, scissors game. The pokemon Battle game lets you play agianst the computer and pick from three different types of pokemons.
+
+The live link can be found here [Pokemon Rock, Paper, scissors](https://brionconroy.github.io/Pokemon_rock_paper_scissors/)
 
 ## User Experience (UX)
 
